@@ -5,29 +5,43 @@ body{
   width: auto;
   height: 80px;
   background-color: black;
-
-
+}
+h1{
+  color: white;
+  font-size: 50px;
+  padding: 20px;
 }
 #contenedor{
   margin: 0 auto;
   width: 700px;
-  height: 700px;
+  height: 900px;
   background-color: grey;
 
 }
 
-.bola{
+.bolitas{
   width: 180px;
   height: 180px;
-  border-radius: 20%;
+  border-radius: 50%;
   float: left;
   margin-top: 100px;
   margin-left: 40px;
   background-color: white;
 }
+.bolita{
+  width: 610px;
+  height: 180px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 90px;
+  margin-left: 40px;
+  background-color: white;
+  background-position: center;
+}
 
 p{
-  font-size: 40px;
+  font-size: 35px;
   margin-left: 18px;
   line-height: 80px;
 }
+
